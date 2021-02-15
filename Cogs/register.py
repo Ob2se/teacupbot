@@ -3,6 +3,8 @@ import secrets
 from discord.ext import commands
 from random import randint
 
+
+#not done at all going about it a new way
 class RegisterCog(commands.Cog, name="help command"):
     def __init__(self, bot):
 		self.bot = bot
